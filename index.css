@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+
+}
+.promo {
+    margin: -500px auto;
+    width: 250px;
+    height: 250px;    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155,102,88);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transform: rotate(45deg); /* Поворот квадрата */
+    position: relative;
+    animation: scaleUp 0.5s ease-in-out;
+}
+.promo span {
+    transform: rotate(-45deg); /* Выравнивание текста */
+}
+.header {
+    background-image: url('kitchen-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.qr-code {
+    width: 150px;
+    padding-top: 22%;
+    padding-left:1%;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+
+    .EWQE {
+font-size: 200%;
+padding-top: 10%;
+padding-left: 35%;
+COLOR: rgb(229,211,193);
+
+    }
+    .EWRW{
+        font-size: 200%;
+        padding-top: %;
+        padding-left: 50%;
+        COLOR: rgb(229,211,193);
+        
+            }
+            .daxs{
+                font-size: 200%;
+                padding-top: 13%;
+                padding-left: 2%;
+                COLOR: rgb(229,211,193);
+                
+                    }
+                    .hgf{
+                        font-size: 200%;
+                        padding-top: 13%;
+                        padding-left: 2%;
+                        COLOR: rgb(229,211,193);
+                        
+                            }
+.section {
+    height: 33.33vh;         
+    width: 100%; /* Ширина на всю страницу */
+    margin-top: 2%;
+  }
+  .section1 {
+    
+    background-image: url(FON1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    height: 110.33vh;
+  }
+  .section2 {
+    background-image: url(ZHEST.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    height: 110.33vh;
+  }
+
+  
+  .EQW {font-size: 200%;
+    padding-top: 10%;
+    padding-left: 100%
+    COLOR: rgb(229,211,193);
+
+
+  }
+  .section3 {
+    background-image: url(FONH.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    height: 110.33vh;
+  }
+  .DSAromo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 102, 88);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transform: rotate(45deg) translatex(550px); /* Move the square down by 50px */
+    animation: scaleUp 0.5s ease-in-out;
+    transform: rotate(45deg) translate(270%, -50%);  
+}  
+.cxzcaz{width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 102, 88);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transform: rotate(45deg) translatex(550px); /* Move the square down by 50px */
+    animation: scaleUp 0.5s ease-in-out;
+    transform: rotate(45deg) translate(240%, -150%);  
+}  
+.section4 {
+    background-image: url(FON9.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 110.33vh;
+}
+.section5 {
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:50.33vh;
+}
+#myVideo {
+    transform: translateY(17%);
+padding-left: 35%;
+    width: 100%;
+    /* Занимает всю ширину контейнера */
+    max-width: 600px; /*
+    Максимальная ширина видео */
+    margin: 0 auto; /* Центровка по горизонтали / display: block; / Убирает отступы, которые бывают у inline-элементов */
+    border: 5px solid #ссс; /* Добавление рамки / border-radius: 10px; / Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень вокруг видео */
+  }
+  
